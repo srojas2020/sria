@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Política de Privacidad | MCP - Gmail — SR.IA</title>
+  <meta name="description" content="Política de privacidad de la aplicación MCP - Gmail, herramienta personal de uso propio desarrollada por Sergio Germán Rojas (SR.IA)." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://srojas2020.github.io/sria/privacidad.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Satoshi:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --primary: #0A2540;
+      --secondary: #FAFAFA;
+      --accent: #D4A853;
+      --support: #64748B;
+      --tech: #0EA5A3;
+      --border: rgba(100, 116, 139, 0.2);
+      --font-serif: 'Instrument Serif', 'Playfair Display', Georgia, serif;
+      --font-sans: 'Satoshi', 'DM Sans', system-ui, sans-serif;
+    }
+
+    html { font-size: 17px; scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-sans);
+      background-color: var(--secondary);
+      color: var(--primary);
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .wrap { max-width: 760px; margin: 0 auto; padding: 64px 24px 96px; }
+
+    header { border-bottom: 2px solid var(--accent); padding-bottom: 28px; margin-bottom: 44px; }
+
+    .brand {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: 0.95rem;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--tech);
+      margin-bottom: 12px;
+    }
+
+    h1 { font-family: var(--font-serif); font-size: 2.5rem; line-height: 1.2; font-weight: 400; }
+
+    .meta { color: var(--support); font-size: 0.95rem; margin-top: 14px; }
+
+    h2 {
+      font-family: var(--font-serif);
+      font-size: 1.6rem;
+      font-weight: 400;
+      margin: 48px 0 16px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+
+    p { margin-bottom: 18px; }
+
+    ul { margin: 0 0 18px 24px; }
+    li { margin-bottom: 10px; }
+
+    strong { font-weight: 700; }
+
+    a { color: var(--tech); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--accent); }
+
+    .callout {
+      background: rgba(14, 165, 163, 0.07);
+      border-left: 4px solid var(--tech);
+      padding: 20px 24px;
+      margin: 26px 0;
+      border-radius: 0 8px 8px 0;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+
+    table { width: 100%; border-collapse: collapse; margin: 22px 0; font-size: 0.97rem; }
+    th, td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { font-weight: 700; background: rgba(10, 37, 64, 0.04); }
+
+    footer {
+      margin-top: 64px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+      color: var(--support);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 600px) {
+      html { font-size: 16px; }
+      .wrap { padding: 40px 20px 64px; }
+      h1 { font-size: 1.9rem; }
+      h2 { font-size: 1.35rem; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+
+    <header>
+      <div class="brand">SR.IA</div>
+      <h1>Política de Privacidad — MCP&nbsp;-&nbsp;Gmail</h1>
+      <p class="meta">Última actualización: 21 de agosto de 2026</p>
+    </header>
+
+    <h2>1. Qué es esta aplicación</h2>
+    <p><strong>MCP - Gmail</strong> es una herramienta personal desarrollada por Sergio Germán Rojas (SR.IA) para gestionar su propia casilla de correo electrónico desde su computadora, mediante la API de Gmail de Google.</p>
+    <p>No es un producto comercial, no se ofrece al público y no tiene usuarios registrados más allá de su propio autor.</p>
+
+    <h2>2. Quién la usa</h2>
+    <p>La aplicación es utilizada exclusivamente por su desarrollador y propietario, sobre su propia cuenta de Google (<strong>sergiorojas001@gmail.com</strong>). No accede a casillas de terceros ni permite que terceros accedan a datos a través de ella.</p>
+
+    <h2>3. Qué datos accede</h2>
+    <p>La aplicación solicita el permiso <code>gmail.modify</code> de la API de Gmail. Ese permiso le habilita a:</p>
+    <table>
+      <tr><th>Acción</th><th>Para qué</th></tr>
+      <tr><td>Leer mensajes y conversaciones</td><td>Consultar correos recibidos y su contenido</td></tr>
+      <tr><td>Buscar en la casilla</td><td>Localizar mensajes por remitente, asunto o fecha</td></tr>
+      <tr><td>Redactar borradores</td><td>Preparar correos antes de enviarlos</td></tr>
+      <tr><td>Enviar y responder correos</td><td>Comunicación habitual del propietario</td></tr>
+      <tr><td>Gestionar etiquetas y estado de lectura</td><td>Organizar la casilla</td></tr>
+      <tr><td>Mover mensajes a la papelera</td><td>Depurar la casilla</td></tr>
+    </table>
+    <p>La aplicación <strong>no</strong> accede a contactos, calendario, archivos de Drive ni a ningún otro servicio de Google.</p>
+
+    <h2>4. Para qué se usan los datos</h2>
+    <p>Únicamente para que el propietario opere su propia casilla de correo: leer, buscar, redactar, responder, enviar y organizar mensajes.</p>
+    <p>Los datos <strong>no</strong> se usan para publicidad, no se venden, no se ceden y no se emplean para entrenar modelos de inteligencia artificial.</p>
+
+    <h2>5. Dónde se guardan los datos</h2>
+    <p>La aplicación <strong>no tiene servidores propios ni base de datos</strong>. Se ejecuta localmente en la computadora del propietario.</p>
+    <ul>
+      <li>Las credenciales de acceso (token de OAuth) se guardan únicamente en el disco local de esa computadora.</li>
+      <li>El contenido de los correos <strong>no se almacena</strong>: se consulta a la API de Gmail en el momento y se descarta al terminar la operación.</li>
+      <li>No se genera ninguna copia ni respaldo del contenido de la casilla.</li>
+    </ul>
+
+    <h2>6. Con quién se comparten los datos</h2>
+    <p>Con nadie, con una única salvedad que se declara con transparencia:</p>
+    <div class="callout">
+      <p>La herramienta se opera a través de un asistente de inteligencia artificial (Claude, de Anthropic). Cuando el propietario le pide leer o redactar un correo, el contenido involucrado en esa operación se procesa mediante la API de Anthropic para poder generar la respuesta.</p>
+      <p>Se trata siempre de correos de la casilla del propio propietario, operados por él mismo y a pedido expreso suyo. No hay datos de terceros usuarios involucrados.</p>
+    </div>
+
+    <h2>7. Uso limitado de los datos de Google</h2>
+    <p>El uso que <strong>MCP - Gmail</strong> hace de la información recibida a través de las APIs de Google se ajusta a la <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Política de Datos de Usuario de los Servicios de API de Google</a>, incluidos sus <strong>requisitos de Uso Limitado</strong>.</p>
+    <p>En concreto: los datos obtenidos de la API de Gmail no se transfieren a terceros salvo lo estrictamente necesario para prestar la funcionalidad descripta, no se usan con fines publicitarios, no se venden y no son leídos por personas distintas del propietario de la casilla.</p>
+
+    <h2>8. Cómo revocar el acceso</h2>
+    <p>El propietario puede retirar en cualquier momento el permiso otorgado a esta aplicación desde la configuración de seguridad de su cuenta de Google, en <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>.</p>
+    <p>Al revocarlo, la aplicación pierde de inmediato todo acceso a la casilla.</p>
+
+    <h2>9. Conservación y eliminación</h2>
+    <p>Como no se almacena contenido de correos, no hay datos que conservar ni que eliminar. El único dato persistente es el token de acceso guardado localmente, que se elimina borrando el archivo correspondiente en la computadora del propietario o revocando el permiso según el punto anterior.</p>
+
+    <h2>10. Menores de edad</h2>
+    <p>La aplicación no está dirigida a menores de edad ni recopila deliberadamente datos de personas menores de 18 años.</p>
+
+    <h2>11. Cambios en esta política</h2>
+    <p>Si la aplicación cambia su funcionamiento o los permisos que solicita, esta página se actualizará y se modificará la fecha de última actualización indicada al inicio.</p>
+
+    <h2>12. Contacto</h2>
+    <p>Consultas sobre esta política: <a href="mailto:sergiorojas001@gmail.com">sergiorojas001@gmail.com</a></p>
+    <p>Responsable: Sergio Germán Rojas — SR.IA · Jesús María, Córdoba, Argentina.</p>
+
+    <footer>
+      <p><a href="https://srojas2020.github.io/sria/">← Volver a SR.IA</a></p>
+    </footer>
+
+  </div>
+</body>
+</html>
